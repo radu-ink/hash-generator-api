@@ -96,7 +96,7 @@ To build and run the API as a containerised service:
 # Build the production image
 docker build -t hash-generator-api .
 
-# Run the container mapping port 3000
+# Run the container mapping on port 3000
 docker run -p 3000:3000 --env-file .env hash-generator-api
 ```
 
